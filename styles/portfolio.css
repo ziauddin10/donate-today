@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* banner section styles */
+.banner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 175px 310px;
+  text-align: center;
+}
+
+.section-title {
+  color: #ffff;
+  font-weight: 800;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  color: #ffff;
+  background-color: rgb(222, 95, 48);
+  height: 64px;
+  padding: 18px 35px;
+  font-size: 25px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+}
+
+header {
+  background-image: url("../images/donation1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* donate today styles */
+.donate {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 175px 310px;
+  text-align: center;
+}
+
+.donate .section-title {
+  color: #474747;
+}
+.donate .section-description {
+  color: #757575;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: space-around;
+}
+
+.donate-amount p {
+  font-weight: 800;
+  font-size: 40px;
+  color: #757575;
+  padding: 35px 20px;
+  margin-bottom: 50px;
+}
+
+.donate .donate-200 {
+  border: 3px solid orange;
+  border-radius: 10px;
+  color: orange;
+}
+
+input[type="text"] {
+  width: 100%;
+  text-align: center;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px rgb(203, 209, 209);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* donate plan style */
+.donate-plan {
+  margin: 50px 100px;
+}
+
+.donate-plan-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.donate-plan .section-title {
+  color: #474747;
+  text-align: center;
+}
+.donate-plan .section-description {
+  color: #757575;
+  text-align: center;
+}
+
+.donate-plan-system {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.plan-system {
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+.plan-system img {
+  margin-bottom: 30px;
+}
+
+.plan-system .title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.plan-system .description {
+  font-weight: 500;
+}
+#plan-system {
+  background-color: rgb(238, 228, 212);
+}
+
+/* live donation style */
+.donation-contribute {
+  display: flex;
+  gap: 50px;
+  margin: 50px 100px;
+  align-items: center;
+}
+
+.contribute-title {
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.contribute-description {
+  color: #a29c9c;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.live-contribute {
+  margin-bottom: 50px;
+}
