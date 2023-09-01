@@ -134,7 +134,7 @@ input[type="text"] {
 .donation-contribute {
   display: flex;
   gap: 50px;
-  margin: 50px 100px;
+  margin: 100px 100px;
   align-items: center;
 }
 
@@ -152,4 +152,48 @@ input[type="text"] {
 
 .live-contribute {
   margin-bottom: 50px;
+}
+
+/* update section style */
+.update {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.update .section-title {
+  color: #474747;
+  text-align: center;
+}
+.update form {
+  width: 800px;
+  background-color: rgb(235, 220, 201);
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+.update input[type="email"] {
+  width: 250px;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.footer-title {
+  font-family: "Pattaya", sans-serif;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: rgb(230, 101, 101);
+}
+
+.footer-description {
+  color: #ffff;
+  font-weight: 600;
 }
